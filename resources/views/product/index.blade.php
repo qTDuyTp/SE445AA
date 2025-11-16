@@ -66,6 +66,7 @@
 </ul>
 
 <h1>Đọc Từ file CSV</h1>
+<h1>Đọc từ CSV</h1>
 <ul>
     @foreach ($stocks as $stock)
         @if($stock['SoLuongTon'] > 0 && $stock['GiaGoc'] > 0)
